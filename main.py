@@ -18,7 +18,7 @@ def initializeDB():
   else:
     print('DB already exists')
     return
- #These numbers are only needed for first year. They won't match going forward because of adding and subtracting points thru testing. 
+ #These numbers are only needed for first year. They won't match going forward because of adding and subtracting points through testing. 
 def initializeDBOnTime():
   db["Mad Hatter#0827"] = [0, 0, 0, 0, 0, 0, 0, 0]
   db["iamalroberts#9609"] = [0, 3, 15, 15, 8, 0, 25, 0]
